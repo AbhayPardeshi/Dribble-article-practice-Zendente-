@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #0c53fb;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainBackgroundColor: aliceblue;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+/* .section-one {
+} */
+
+.section-two {
+  background-color: var(--mainBackgroundColor);
+}
+.row {
+  display: flex;
+}
+
+.section1-headerDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1-header-sub-div {
+  display: flex;
+}
+
+.hero-heading {
+  font-weight: bold;
+}
+
+.section-two-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+#searchLogo {
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+}
+.breadcrumb li {
+  display: inline;
+}
+
+.patient-section {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.grid-col-span-6 {
+  grid-column: span 6;
+}
+
+.grid-col-span-8 {
+  grid-column: span 8;
+}
+
+.patient-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.appointment-history {
+  display: flex;
+  width: 100%;
+}
+
+.treatment-details-header {
+  display: flex;
+}
+
+.treatmentOne {
+  display: flex;
+}
+
+.treatmentTwo {
+  display: flex;
+}
