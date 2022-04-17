@@ -19,127 +19,142 @@
                     <div>
                         <img id="main-logo" src="./images/logo-small.jpg" alt="main-logo">
                     </div>
-                    <div><span id="hero-heading">Zendenta</span><br>
-                        <span>Cabut gigi tanpa sakit</span>
+                    <div class="hero-heading-div"><span id="hero-heading">Zendenta</span><br>
+                        <span>cabut gigi tanpa sakit</span>
                     </div>
                 </div>
                 <span>
-                    <i class="fas fa-bars"></i>
+                    <i class="navigation-bars fas fa-bars"></i>
 
                 </span>
 
             </div>
-            <div>
-                <ul>
-                    <li>
+            <aside class="main-navigation">
+                <div class="navigation">
+                    <div class="nav-items">
                         <a href="#">
-                            <i class="fal fa-clock"></i>
+                            <i class="nav-icons far fa-clock"></i>
                             <span>Overview</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="nav-items">
                         <a href="#">
-                            <i class="far fa-calendar-alt"></i>
+                            <i class="nav-icons far fa-calendar-alt"></i>
                             <span>Calender</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="nav-items active-nav">
                         <a href="#">
-                            <i class="fal fa-user"></i>
+                            <i class="nav-icons far fa-user"></i>
                             <span>Patient List</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="nav-items">
                         <a href="#">
-                            <i class="fal fa-comment-alt-lines"></i>
+                            <i class="nav-icons fal fa-comment"></i>
                             <span>Messages</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="nav-items">
                         <a href="#">
-                            <i class="fal fa-sack-dollar"></i>
+                            <i class="nav-icons fas fa-sliders-h"></i>
                             <span>Payment Information</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="nav-items">
                         <a href="#">
-                            <img src="#" alt="setting-img">
+                            <i class="nav-icons fas fa-sliders-h"></i>
                             <span>Setting</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+
+
+                </div>
+                <div class="nav-footer">
+                    <div>
                         <a href="#">
-                            <img src="#" alt="help-img">
+                            <i class="nav-icons fas fa-info-circle"></i>
                             <span>Help</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <img id="doctor-image" src="#" alt="doctor-img">
-                <p>
-                    <span id="sectionOne-doctor-name">Drg. Adam H.</span>
-                    <br>
-                    <span>Dentist</span>
-                </p>
-                <button class="dropdown-btn">
-                    <i class="fa-solid fa-caret-up"></i>
-                </button>
-            </div>
+                    </div>
+
+                    <div class="nav-doc-details">
+                        <img id="doctor-image" src="./images/doc-img.png" alt="doctor-img">
+                        <p>
+                            <span id="sectionOne-doctor-name">Drg. Adam H.</span>
+                            <br>
+                            <span>Dentist</span>
+                        </p>
+                        <span>
+                            <button class="dropdown-btn">
+                                <i class="fas fa-caret-down"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </aside>
         </section>
         <section class="section-two">
             <div class="section-two-header">
                 <div class="doctor-name">
-                    <img src="#" alt="image">
-                    <span>Diane Cooper</span>
+                    <img src="./images/icons8-person-96.png" alt="person">
+                    <span id="doc-name-span">Diane Cooper</span>
                 </div>
                 <div class="searchBar">
-                    <button id="search-logo" href="#">
-                        <img src="./images/search-logo.png" alt="search-logo" height="25px
-                    "></button>
-                    <input type="text" placeholder="Search">
-                    <a href="#">
-                        <img src="#" alt="plus-button">
+
+                    <span class="search-logo" href="#">
+                        <input type="text" placeholder="Search">
+                        <i class="fas fa-search fa-md" width="20px"></i>
+                    </span>
+
+                    <a href="#" class="sub-plus-btn">
+                        <img src="./images/plus-btn.png" alt="plus">
                     </a>
-                    <a href="#">
-                        <img src="#" alt="notification-button">
+                    <a href="#" class="notify-btn">
+                        <img src="./images/notification.png" alt="notification">
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row breadcrumb-div">
                 <div>
-                    <ul class="breadcrumb">
+                    <ul class="breadcrumb-navigation">
                         <li><a href="#">Patient List</a></li>
-                        <li><a href="#">Diane Cooper</a></li>
+                        <li>Diane Cooper</li>
                     </ul>
                 </div>
-                <div class="printButton">
-                    <a href="#">
-                        <img src="#" alt="print-button">
-                    </a>
-                </div>
-                <div class="editButton">
-                    <a href="#">
-                        <img src="#" alt="edit-button">
-                    </a>
+                <div>
+                    <span class="printButton">
+                        <a href="#">
+                            <img src="#" alt="print-button">
+                        </a>
+                    </span>
+                    <span class="editButton">
+                        <a href="#">
+                            <img src="#" alt="edit-button">
+                        </a>
+                    </span>
                 </div>
             </div>
             <div class="patient-section ">
                 <article class="patient-id grid-col-span-2">
-                    <img id="patient-image" src="./images/logo-small.jpg" alt="patient-photo">
+                    <img id="patient-image" src="./images/patient-img.png" alt="patient-photo">
                     <p id="patient-name">Diane Cooper</p>
-                    <p>diane.cooper@example.com</p>
+                    <p id="patient-email">diane.cooper@example.com</p>
                     <div class="appointment-history">
-                        <p id="past-appointement">
-                            15<br>Past
-                        </p>
-                        <p id="upcoming-appointement">
-                            2<br>upcoming
-                        </p>
+                        <span id="past-appointement">
+                            15<br>
+                            <p id="app-history-details">Past</p>
+                        </span>
+                        <span id="upcoming-appointement">
+                            2<br>
+                            <p id="app-history-details">Upcoming</p>
+                        </span>
                     </div>
+                    <br>
+
                     <button class="messageBtn">Send Message</button>
                 </article>
-                <article class="patient-details grid-col-span-6">
+                <article class="patient-details grid-col-span-5">
                     <div class="detail-div">
                         <p id="detail-header">Gender</p>
                         <p>Female</p>
@@ -173,7 +188,7 @@
                         <p> Feb 24th,1997</p>
                     </div>
                 </article>
-                <article class="doctor-notes grid-col-span-3">
+                <article class="doctor-notes grid-col-span-4">
                     <div class="notes-heading">
                         <p id="notes-main-heading">Notes</p>
                         <a id="sellAll-button" href=" #">
@@ -181,26 +196,32 @@
                         </a>
                     </div>
                     <div class="notes">
-                        <p>- This patient is lorem ipsum dolor sit amet</p>
-                        <p>- lorem ipsum dolor sit amet</p>
-                        <p>- has alergic history with Cataflam</p>
-                        <button id="save-btn">save note</button>
+                        <div>
+                            <p>- This patient is lorem ipsum dolor sit amet</p>
+                            <p>- lorem ipsum dolor sit amet</p>
+                            <p>- has alergic history with Cataflam</p>
+                        </div>
+                        <div class="btn-holder">
+                            <button id="save-btn">Save Note</button>
+                        </div>
                     </div>
-                    <div class="doctor-name">
-                        <p>lorem ipsum dolor sit amet</p>
+                    <div class="doctor-name-2">
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <p class="doc-date-info">
+                            <img class="person-img" src="./images/icons8-person-96.png" alt="person">
+                            <span>Drg. Mege Nanade</span>
+                            <span id="date">20 Nov '19</span>
+                        </p>
 
-                        <img src="#" alt="doc-image">
-                        <p>Drg. Mege Nanade</p>
-                        <p>20 Nov '19</p>
                     </div>
                 </article>
-                <article class="appointment-details grid-col-span-8">
-                    <div>
-                        <ul class="appointement-history">
-                            <button id="active-tab"><a href="">Upcoming Appointments</a></button>
-                            <button><a href="">Past Appointments</a></button>
-                            <button><a href="">Medical Records</a></button>
-                        </ul>
+                <article class="appointment-details grid-col-span-7">
+                    <div class="appointement-history">
+
+                        <div class="tab active-tab"><a href="#">Upcoming Appointments</a></div>
+                        <div class="tab"><a href="#">Past Appointments</a></div>
+                        <div class="tab"><a href="#">Medical Records</a></div>
+
                     </div>
 
                     <div class="treatment-details">
@@ -213,63 +234,63 @@
                             </div>
                         </div>
                         <div class="treatment-details-body">
-                            <div class="treatmentOne">
+                            <div class="treatment">
                                 <div>
-                                    <p id="treatment-date"> 26 Nov '19</p>
-                                    <p>09:00 - 10:00</p>
+                                    <p id="treatment-bold"> 26 Nov '19</p>
+                                    <p id="treatment-gray">09:00 - 10:00</p>
                                 </div>
                                 <div>
-                                    <p>Treatment</p>
-                                    <p id="treatment-name">
+                                    <p id="treatment-gray">Treatment</p>
+                                    <p id="treatment-bold">
                                         Open Access
                                     </p>
                                 </div>
                                 <div>
-                                    <p>Dentist</p>
-                                    <p id="treatment-doctor-name">
+                                    <p id="treatment-gray">Dentist</p>
+                                    <p id="treatment-bold">
                                         Dr. Adam H.
                                     </p>
                                 </div>
                                 <div>
-                                    <p>Nurse</p>
-                                    <p id="Treatment-nurse-name">
+                                    <p id="treatment-gray">Nurse</p>
+                                    <p id="treatment-bold">
                                         Jessica Mila
                                     </p>
                                 </div>
-                                <div>
-                                    <p id="treatment-short-note">
-                                        <img src="#">Note
+                                <div id="treatment-short-note">
+                                    <p>
+                                        <img src="./images/icons8-note-64.png">Note
                                     </p>
                                 </div>
 
                             </div>
 
-                            <div class="treatmentTwo">
+                            <div class="treatment treatment-two">
                                 <div>
-                                    <p id="treatment-date"> 12 Dec '19</p>
-                                    <p>09:00 - 10:00</p>
+                                    <p id="treatment-bold"> 12 Dec '19</p>
+                                    <p id="treatment-gray">09:00 - 10:00</p>
                                 </div>
                                 <div>
-                                    <p>Treatment</p>
-                                    <p id="treatment-name">
+                                    <p id="treatment-gray">Treatment</p>
+                                    <p id="treatment-bold">
                                         Root Canal Prep
                                     </p>
                                 </div>
                                 <div>
-                                    <p>Dentist</p>
-                                    <p id="treatment-doctor-name">
+                                    <p id="treatment-gray">Dentist</p>
+                                    <p id="treatment-bold">
                                         Dr. Adam H.
                                     </p>
                                 </div>
                                 <div>
-                                    <p>Nurse</p>
-                                    <p id="Treatment-nurse-name">
+                                    <p id="treatment-gray">Nurse</p>
+                                    <p id="treatment-bold">
                                         Jessica Mila
                                     </p>
                                 </div>
-                                <div>
-                                    <p id="treatment-short-note">
-                                        <img src="#">Note
+                                <div id="treatment-short-note">
+                                    <p>
+                                        <img src="./images/icons8-note-64.png">Note
                                     </p>
                                 </div>
 
@@ -278,56 +299,56 @@
                     </div>
                 </article>
 
-                <article class="documents grid-col-span-3">
-                    <div>
+                <article class="documents grid-col-span-4">
+                    <div class="document-heading-div">
                         <p id="document-heading">Files/Documents</p>
                         <p id="doc-add-section">
                             <a href="#">
-                                <img src="#" alt="add-files">Add Files
+                                <img src="./images/icons8-note-64.png" alt="add-files">Add Files
                             </a>
                         </p>
                     </div>
 
                     <section>
-                        <div class="row">
+                        <div class="checkup-row">
                             <p>
-                                <img src="#" alt="img">
-                                Check Up Result.pdf
+                                <img src="./images/icons8-file-24.png" alt="img">
+                                <span>Check Up Result.pdf</span>
                             </p>
 
                             <p>123kb</p>
 
                         </div>
-                        <div class="row">
+                        <div class="checkup-row">
                             <p>
-                                <img src="#" alt="img">
-                                Dental X-Ray Result 2.pdf
+                                <img src="./images/icons8-file-24.png" alt="img">
+                                <span> Dental X-Ray Result 2.pdf</span>
                             </p>
 
                             <p>
-                                <img src="#" alt="delete">
-                                <img src="#" alt="download">
+                                <img src="./images/icons8-delete-100.png" alt="delete">
+                                <img src="./images/icons8-download-26.png" alt="download">
                             </p>
 
                         </div>
-                        <div class="row">
+                        <div class="checkup-row">
                             <p>
-                                <img src="#" alt="img">
-                                Medical Prescriptions.pdf
+                                <img src="./images/icons8-file-24.png" alt="img">
+                                <span>Medical Prescriptions.pdf</span>
                             </p>
 
                             <p>87kb</p>
 
                         </div>
-                        <div class="row">
+                        <div class="checkup-row">
                             <p>
-                                <img src="#" alt="img">
-                                Dental X-Ray Result.pdf
+                                <img src="./images/icons8-file-24.png" alt="img">
+                                <span>Dental X-Ray Result.pdf</span>
                             </p>
 
                             <p>
-                                <img src="#" alt="delete">
-                                <img src="#" alt="download">
+                                <img src="./images/icons8-delete-100.png" alt="delete">
+                                <img src="./images/icons8-download-26.png" alt="download">
                             </p>
 
                         </div>
